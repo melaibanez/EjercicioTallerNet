@@ -6,7 +6,7 @@ namespace EntidadNegocio
 {
     class Detalle
     {
-        public Producto ProductoComprado { get; set; }
+        public Producto Master_ProductoComprado { get; set; }
         public int Cantidad { get; set; }
         public int Subtotal { get; set; }
     }
