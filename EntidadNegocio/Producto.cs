@@ -4,10 +4,10 @@ namespace EntidadNegocio
 {
     public class Producto
     {
-        public string Modelo { get; set; }
-        public string Descripcion { get; set; }
-        public int Precio { get; set; }
-        public int Stock { get; set; }
+        private string Modelo { get; set; }
+        private   string Descripcion { get; set; }
+        private int Precio { get; set; }
+        private int Stock { get; set; }
 
     }
 }

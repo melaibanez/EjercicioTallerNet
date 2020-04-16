@@ -6,10 +6,10 @@ namespace EntidadNegocio
 {
     class Venta
     {
-        public int NroVenta { get; set; }
+        private int NroVenta { get; set; }
         private DateTime Fecha { get; set; }
 
-        public List<Detalle> Detalles = new List<Detalle>();
+        private List<Detalle> Detalles = new List<Detalle>();
     }
 
     //public int getTotal()
